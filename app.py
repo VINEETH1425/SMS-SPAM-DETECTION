@@ -20,3 +20,13 @@ if st.button("Classify") :
             st.write("The email is spam")
     else:
         st.write("Please type Email to classify")
+
+st.markdown(
+    """
+    <div style="text-align: center; margin-top: 50px; font-size: 16px; color: grey;">
+        <hr style="margin: 20px 0;">
+        <p><strong>Made with ❤️ by Vineeth Raghavendra</strong></p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
